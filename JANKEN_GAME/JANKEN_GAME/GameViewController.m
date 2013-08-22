@@ -51,6 +51,7 @@
     int aite_no_te = arc4random()%3;
     
     //相手の手を表示
+    //0:グー,1:チョキ,2:パー
     if (aite_no_te == 0)
     {
         self.guu.hidden = NO;
@@ -65,9 +66,10 @@
     }
     
     //自分の手をボタンtagから判別
-    //0:グー,1:チョキ,2:パー
+    //0:グー,1:チョキ,2:パー(aite_no_teと揃えておくと楽)
     int jibun_no_te = [sender tag];
     
+    //結果表示
     if (aite_no_te == jibun_no_te)
     {
         self.aiko.hidden = NO; //同じ手なので「あいこ」を表示

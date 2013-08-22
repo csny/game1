@@ -228,27 +228,6 @@
         <image name="M-j_pa02.png" width="180" height="180"/>
         <image name="Sunset-Scapes-640x960.jpg" width="640" height="960"/>
     </resources>
-    <classes>
-        <class className="GameViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/GameViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="backtotitleDidPush:"/>
-                <relationship kind="action" name="jankenDidPush:"/>
-                <relationship kind="outlet" name="aiko" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="choki" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="guu" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="kati" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="make" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="paa" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
